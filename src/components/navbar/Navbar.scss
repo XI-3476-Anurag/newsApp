@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.Navbar{
+    font-family: 'Rubik', sans-serif;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    align-items: center;
+    .container{
+        display: flex;
+        gap: 1rem;
+    }
+   .main-categories{
+    margin-left: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        .nav-btn{
+            border-radius: 5px;
+            padding: 4px;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(223, 208, 208);
+                color: purple;
+            }
+            &:active{
+                background-color: rgb(250, 249, 249);
+            }
+        }
+   }
+   .options{
+        padding: 4px;
+        select{
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(223, 208, 208);
+            }
+        }
+   }
+}
